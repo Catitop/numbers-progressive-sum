@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Sum Numbers</title>
+</head>
+<body>
+    <section class="all_items_section">
+        <div class="workout_buttons">
+            <input type="text" class="number_input" onclick="inputValueDisappearance()" onfocusout="inputValueReappearance()">
+            <button class="plus_button" onclick="pushNumbersToArray()">+</button>
+            <button class="result_button" onclick="showResult()">Calcular</button>
+        </div>
+
+        <span class="show_numbers">Num = result</span>
+
+        <button class="reset_button" onclick="resetAll()">Limpar</button>
+    </section>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>

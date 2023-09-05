@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E0D12;
+    font-family: 'Inter', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    width: 22rem;
+    height: 3.4375rem;
+
+    border-radius: 0.25rem;
+    border: none;
+
+    color: #646378;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding-left: 0.81rem;
+
+    background: #1E1D25;
+}
+
+.all_items_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 38.0025rem;
+
+    margin: auto;
+    margin-top: 15.62rem;
+}
+
+.workout_buttons {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.plus_button {
+    width: 3.4375rem;
+    height: 3.4375rem;
+
+    border-radius: 624.9375rem;
+    border: 1px solid #3A6BF4;
+
+    background-color: transparent;
+
+    color: #3A6BF4;
+
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.result_button {
+    width: 11.41456rem;
+    height: 3.0625rem;
+
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #3A68F4;
+
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+.show_numbers {
+    display: flex;
+    justify-content: start;
+
+    width: 100%;
+
+    margin: auto;
+    margin-top: 9.06rem;
+
+    color: #FAFBFF;
+
+    font-size: 5.61031rem;
+    font-weight: 700;
+}
+
+.reset_button {
+    width: 18.72613rem;
+    height: 3.0625rem;
+
+    border-radius: 0.25rem;
+    border: 1px solid #3A6BF4;
+
+    background-color: transparent;
+
+    font-size: 1.75rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+
+    margin-top: 6.38rem;
+}
+
+@media(max-width: 650px) {
+    .workout_buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .all_items_section {
+        margin-top: 2rem;
+    }
+    .show_numbers {
+        justify-content: center;
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 375px) {
+    input {
+        width: 14rem;
+    }
+    .show_numbers {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 300px) {
+    .reset_button {
+        width: 15rem;
+    }
+}
