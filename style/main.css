@@ -31,6 +31,10 @@ input {
     background: #1E1D25;
 }
 
+button {
+    cursor: pointer;
+}
+
 .all_items_section {
     display: flex;
     flex-direction: column;
